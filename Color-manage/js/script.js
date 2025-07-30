@@ -395,8 +395,8 @@ function updateLanguage() {
     });
 
     DOM.footerText.innerHTML = state.currentLanguage === 'en'
-        ? '© 2025 Moon Color. All rights reserved. Powered by <a href="https://www.cmymoon.com" style="color: blue; text-decoration: none;">Moon</a>.'
-        : '© 2025 Moon Color。保留所有权利。由 <a href="https://www.cmymoon.com" style="color: blue; text-decoration: none;">Moon</a> 提供技术支持。';
+        ? '© 2025 UIBO Color. All rights reserved. Powered by <a href="https://uibohome666.shop" style="color: blue; text-decoration: none;">UIBO</a>.'
+        : '© 2025 UIBO Color。保留所有权利。由 <a href="https://uibohome666.shop" style="color: blue; text-decoration: none;">UIBO</a> 提供技术支持。';
 
     DOM.languageSelect.value = state.currentLanguage;
     updateCustomSelect(DOM.languageSelect);
